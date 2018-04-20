@@ -1,9 +1,3 @@
-/*
-	Library is Patched by yangweixian@cybergal.com
-	Date : 2017.10
-	
-	Description FSM library
-*/
 
 #ifndef FINITESTATEMACHINE_H
 #define FINITESTATEMACHINE_H
