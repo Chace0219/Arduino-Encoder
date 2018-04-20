@@ -1,9 +1,3 @@
-/*
-	Library is Patched by yangweixian@cybergal.com
-	Date : 2017.10
-
-	Description FSM library
-*/
 
 #include "FiniteStateMachine.h" 
 
