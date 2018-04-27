@@ -1,4 +1,13 @@
-
+// ----------------------------------------------------------------------------
+// Rotary Encoder Driver with Acceleration
+// Supports Click, DoubleClick, Long Click
+//
+// (c) 2010 karl@pitrich.com
+// (c) 2014 karl@pitrich.com
+// 
+// Timer-based rotary encoder logic by Peter Dannegger
+// http://www.mikrocontroller.net/articles/Drehgeber
+// ----------------------------------------------------------------------------
 
 #include "ClickEncoder.h"
 

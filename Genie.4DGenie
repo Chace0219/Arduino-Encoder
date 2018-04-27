@@ -37,7 +37,7 @@ UserImages
     Name                         Userimages0
     Alias                        Userimages0
     Height                       240
-    Images                       00.png\n01.png\n02.png\n03.png\n04.png\n05.png\n06.png
+    Images                       main_00.png\nmain_01.png\nmain_02.png\nmain_03.png\nmain_04.png
     Left                         0
     Stretch                      No
     Top                          0
@@ -66,95 +66,101 @@ Strings
     Alias                        Strings0
     Alignment                    Center
     BGcolor                      WHITE
-    Height                       24
+    Height                       39
     FGcolor                      BLACK
     Font.Bold                    No
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
+    Font.Name                    Broadway
     Font.Opaque                  Yes
-    Font.Size                    12
+    Font.Size                    40
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         64
-    Strings                      'ROODNE #1\n'
+    Left                         29
+    Strings                      INCUBATION\n
     StringsStyle                 Message
-    Top                          12
-    Width                        150
+    Top                          4
+    Width                        270
     OnChanged                    ''
 end
-Coolgauge
-    Name                         Coolgauge0
-    Alias                        Coolgauge0
-    Arc.Color                    0xFFEFE0
-    Arc.Opacity                  200
-    Arc.StartAngle               135
-    Arc.StopAngle                405
-    Threshold.Center             25
-    Threshold.Color              0xFFD0AF
-    Threshold.EndValue           100
-    Threshold.Opacity            200
-    Threshold.Span               25
-    Threshold.StartAngle         135
-    Threshold.StartValue         0
-    Threshold.SweepAngle         270
-    Threshold.ThresholdKind      Angle
-    Arc.Width                    0.03
-    CircleEndValue               360
-    CircleStartValue             0
-    DialText                     sec
-    Digit.Alignment              Center
-    Digit.BackGroundColor        0xFFEFE0
-    Digit.BackGroundOpacity      30
-    Digit.Color                  0x902F00
-    Digit.Visible                Yes
-    DivisionColor                0x902F00
-    DivisionCount                10
-    DivisionWidth                5
-    EqualDimensions              Yes
-    Font.Color                   0x902F00
+UserImages
+    Name                         Userimages1
+    Alias                        Userimages1
+    Height                       45
+    Images                       pause_normal.png\npause_active.png\nresume_normal.png\nresume_active.png
+    Left                         0
+    Stretch                      No
+    Top                          195
+    Width                        108
+    OnChanged                    ''
+end
+UserImages
+    Name                         Userimages2
+    Alias                        Userimages2
+    Height                       45
+    Images                       skip_normal.png\nskip_active.png
+    Left                         105
+    Stretch                      No
+    Top                          195
+    Width                        108
+    OnChanged                    ''
+end
+UserImages
+    Name                         Userimages3
+    Alias                        Userimages3
+    Height                       45
+    Images                       cancel_normal.png\ncancel_active.png
+    Left                         212
+    Stretch                      No
+    Top                          195
+    Width                        108
+    OnChanged                    ''
+end
+AngularMeter
+    Name                         Angularmeter0
+    Alias                        Angularmeter0
+    Angle                        40
+    AngleOffset                  280
+    Caption                      ''
+    CaptionXOffset               0
+    CaptionYOffset               0
+    CenterDotColor               GREEN
+    CenterDotWidth               2
+    Color                        WHITE
+    ColorZone1                   clGreen
+    ColorZone2                   GREEN
+    ColorZone3                   GREEN
+    Decimals                     0
+    Font.Color                   GREEN
     Font.Effects                 []
     Font.Name                    Tahoma
-    Font.Size                    14
+    Font.Size                    8
     Font.Style                   []
     Height                       122
-    Innercircle.Color            0xFFD0AF
-    Gloss.Color                  clWhite
-    Gloss.Opacity                72
-    Innercircle.Opacity          150
-    Left                         84
-    Logarithmic                  No
-    LogarithmicBase              10
-    MaximumValue                 100
-    MinimumValue                 0
-    Needle.Color                 0xFFD0AF
-    Needle.InnerCenterColor      0xFFD0AF
-    Needle.InnerCenterColorTo    0xFFD0AF
-    Needle.InnerCenterOpacity    255
-    Needle.OuterCenterColor      0xFFD0AF
-    Needle.OuterCenterColorTo    clBlue
-    Needle.OuterCenterOpacity    255
-    Needle.ShineColor            0xFFEFE0
-    Needle.ShineColorTo          0xD0D0D0
-    OuterCircle.Color            0xFFD0AF
-    OuterCircle.Opacity          100
-    OuterCircle.Width            0.03
-    OuterRim.Color               0x908070
-    OuterRim.Opacity             255
-    OuterRim.Width               2
-    ShowValues                   Yes
-    SubDivisionColor             0x902F00
-    SubDivisionCount             3
-    SubDivisionWidth             2
-    TextRendering                ClearType
+    Labels                       10
+    LabelsFont.Color             WHITE
+    LabelsFont.Effects           []
+    LabelsFont.Name              Tahoma
+    LabelsFont.Size              8
+    LabelsFont.Style             []
+    LabelsOffset                 30
+    Left                         92
+    Maxvalue                     100
+    Minvalue                     0
+    NeedleBasewidth              8
+    NeedleColor                  SILVER
+    NeedleLength                 -1
+    Percent1                     75
+    Percent2                     25
+    Radius                       -1
+    Spacing                      14
+    Ticks                        100
+    TicksColor                   clWhite
+    TicksEnlarge                 10
+    TicksMax                     14
+    TicksMin                     1
     Top                          44
-    ValueFont.Color              0x902F00
-    ValueFont.Effects            []
-    ValueFont.Name               Tahoma
-    ValueFont.Size               11
-    ValueFont.Style              []
-    ValueFormat                  0
-    Width                        122
+    Width                        144
     OnChanged                    ''
 end
 Strings
@@ -162,20 +168,20 @@ Strings
     Alias                        Strings1
     Alignment                    Center
     BGcolor                      WHITE
-    Height                       35
+    Height                       30
     FGcolor                      BLACK
     Font.Bold                    No
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    '4D Font3 (8x12)'
+    Font.Name                    Broadway
     Font.Opaque                  Yes
-    Font.Size                    12
+    Font.Size                    36
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         52
-    Strings                      '9 SEC\n'
+    Left                         116
+    Strings                      3600
     StringsStyle                 Message
-    Top                          194
-    Width                        183
+    Top                          162
+    Width                        95
     OnChanged                    ''
 end
