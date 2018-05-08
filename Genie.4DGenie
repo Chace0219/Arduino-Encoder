@@ -5,7 +5,7 @@ Depends
 end
 Options
     Genie
-    Speed                        9600
+    Speed                        200000
     Checksum                     No
     ResponseSize                 2
     Multidrop                    No
@@ -20,7 +20,7 @@ Form
     Name                         Form0
     Alias                        Form0
     Bgtype                       Color
-    Color                        WHITE
+    Color                        BLACK
     Image                        (None)
     Source.Height                0
     Source.Left                  0
@@ -32,17 +32,6 @@ Form
     OnTouchMoving                ''
     OnTouchPressed               ''
     OnTouchReleased              ''
-end
-UserImages
-    Name                         Userimages0
-    Alias                        Userimages0
-    Height                       240
-    Images                       main_00.png\nmain_01.png\nmain_02.png\nmain_03.png\nmain_04.png
-    Left                         0
-    Stretch                      No
-    Top                          0
-    Width                        320
-    OnChanged                    ''
 end
 Form
     Name                         Form1
@@ -66,21 +55,21 @@ Strings
     Alias                        Strings0
     Alignment                    Center
     BGcolor                      WHITE
-    Height                       39
+    Height                       40
     FGcolor                      BLACK
     Font.Bold                    No
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    Broadway
+    Font.Name                    Arial
     Font.Opaque                  Yes
-    Font.Size                    40
+    Font.Size                    38
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         29
-    Strings                      INCUBATION\n
-    StringsStyle                 Message
+    Left                         0
+    Strings                      FILLING
+    StringsStyle                 Book
     Top                          4
-    Width                        270
+    Width                        320
     OnChanged                    ''
 end
 UserImages
@@ -168,20 +157,81 @@ Strings
     Alias                        Strings1
     Alignment                    Center
     BGcolor                      WHITE
-    Height                       30
+    Height                       36
     FGcolor                      BLACK
     Font.Bold                    No
     Font.CharSet                 ANSI
     Font.Italic                  No
-    Font.Name                    Broadway
+    Font.Name                    Arial
     Font.Opaque                  Yes
     Font.Size                    36
     Font.Strikethrough           No
     Font.Underline               No
-    Left                         116
-    Strings                      3600
-    StringsStyle                 Message
+    Left                         0
+    Strings                      125\n
+    StringsStyle                 Book
     Top                          162
-    Width                        95
+    Width                        320
     OnChanged                    ''
+end
+Form
+    Name                         Form2
+    Alias                        Form2
+    Bgtype                       Color
+    Color                        BLACK
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+UserImages
+    Name                         Userimages4
+    Alias                        Userimages4
+    Height                       240
+    Images                       main_00.png\nmain_01.png\nmain_02.png\nmain_03.png\nmain_04.png
+    Left                         0
+    Stretch                      No
+    Top                          0
+    Width                        320
+    OnChanged                    ''
+end
+Form
+    Name                         Form3
+    Alias                        Form3
+    Bgtype                       Color
+    Color                        WHITE
+    Image                        (None)
+    Source.Height                0
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 0
+    OnActivate                   ''
+    OnCreate                     ''
+    OnRepeat                     ''
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
+end
+Image
+    Name                         Image0
+    Alias                        Image0
+    Height                       240
+    Image                        logo.png
+    Left                         0
+    Source.Height                240
+    Source.Left                  0
+    Source.Top                   0
+    Source.Width                 320
+    Top                          0
+    Width                        317
+    OnTouchMoving                ''
+    OnTouchPressed               ''
+    OnTouchReleased              ''
 end
