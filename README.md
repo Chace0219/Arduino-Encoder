@@ -1,2 +1,2 @@
-# Arduino-Genie-Encoder
+# Arduino-Encoder
 Arduino based 4DSystem LCD project using Genie and Rotary Encoder
